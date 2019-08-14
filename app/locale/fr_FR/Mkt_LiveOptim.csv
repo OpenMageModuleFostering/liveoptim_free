@@ -1,0 +1,332 @@
+﻿//menu
+"menu_accueil","LiveOptim"
+"menu_tutoriel","Tutoriel"
+"menu_motcle","Mots Clé"
+"menu_pattern","Schéma Global"
+"menu_patterncible","Schéma sur page cible"
+"menu_baliseignorer","Restrictions"
+"menu_config","Configuration"
+"menu_pages_restreintes","Pages restreintes"
+
+"all_expire","Vous utilisez une version bridée.<br /> 
+Bénéficiez des effets de LiveOptim sans limite de mots-clés ou de paramétrage. Acheter dès maintenant votre licence et retrouvez votre configuration avancée !"
+"all_non_inscrit","Vous ne pouvez utiliser le module sans être inscrit au préalable. Vous pouvez vous inscrire sur <a class='link_liveoptim' href='http://www.liveoptim.com' target='_blank'>le site de LiveOptim</a>"
+"all_compte_test","Vous utilisez une version d'essai.<br />
+Bénéficiez des effets de LiveOptim sur votre site sans limite de durée, achetez dès maintenant votre licence !"
+"all_bouton_buy","<a class='btn_buy'  href='http://www.liveoptim.com/fr/paiement/choix-du-mode.html'>ACHETER</a>"
+"all_bouton_MaJ","<a class='btn_MaJ' href='%s'>MISE A JOUR<br />DISPONIBLE</a>"
+"accueil_accueil","Accueil"
+"accueil_titre","Bienvenue sur votre console d'administration LiveOptim"
+"accueil_contenu","
+
+<p>Depuis cette interface,  vous pouvez paramétrer le fonctionnement de LiveOptim sur votre site :</p> 
+<ul>
+	<li>Expressions clés
+		<ul>
+			<li><a href='%s'>Ajout d'expressions</a>
+			<p>Ajoutez ou modifiez votre liste d’expresions clés stratégiques et 
+			les URL des pages cibles associées</p></li>
+		</ul>
+	</li>
+	<li>Paramétrage :
+		<ul>
+			<li><a href='%s'>Schéma de balisage global</a>
+				<p>Schéma de balisage appliqué par défaut<span class='lo_ps'>*</span> par la fonction sur les expressions clés présentes dans vos contenus&#44; et leur ordre d’apparition</p>
+			</li>
+			<li><a href='%s'>Schéma de balisage sur page cible</a><span class='txt_prenium'>(version premium)</span>
+				<p>Modifiez le paramétrage des balises sur les expressions clés lorsqu’elles sont traitées sur leur(s) page(s) cible(s)</p>
+			</li>
+			<li><a href='%s'>Exceptions de traitement</a>
+				<p>Balises au sein desquelles les contenus ne doivent pas être traités par la fonction<span class='lo_ps'>*</span></p>
+			</li>
+			<li><a href='%s'>Pages restreintes</a><span class='txt_prenium'>(version premium)</span>
+				<p>Modifiez les pages au sein desquelles les contenus ne doivent pas être traitées par la fonction</p>
+			</li>
+		</ul>
+	</li>
+</ul>
+<p class='txt_etoile'><i><span class='lo_ps'>*</span> Modification disponible dans la version prenium</i></p>"
+"parametrage","Paramétrage"
+"contact","Nous contacter"
+"facebook","Rejoignez-nous"
+"twitter","Besoin d'aide ?"
+"twitter2","@liveoptim"
+"inscription_message","Inscrivez votre site pour activer LiveOptim"
+"accueil_erreur_pas_de_compte","Compte inactif."
+"accueil_inscrivez_vous_ici","Inscription"
+"accueil_copte_client_actif","Compte activé"
+"accueil_compte_client_inactif","Compte non activé"
+"accueil_mots_cles","Mots Clés"
+"accueil_balise_ignores","Exceptions de traitement"
+"accueil_pattern","Schéma de balisage global"
+"accueil_pattern_cible","Schéma de balisage sur page cible"
+"accueil_nouveau_mdp","Nouveau mot de passe"
+"modifier","Modifier"
+
+
+
+// connexion.php
+"connexion_1","Acc&egrave;s administration"
+"connexion_content","
+Indiquez ci-dessous votre mot de passe de connexion &agrave; l'administration LiveOptim<sup>&copy;</sup>
+
+"
+"connexion_titre","Mot de passe :"
+"connexion_connexion","Connexion"
+"connexion_messageErreur_1","Mot de passe erron&eacute;"
+
+// nouveauMdp.php
+"nouveauMdp_titre","Bienvenue sur LiveOptim<sup>&copy;</sup>"
+"nouveauMdp_content","
+D&eacute;finissez le mot de passe qui vous servira &agrave; vous connecter 
+&agrave; l&quot;administration du module, et conservez-le pr&eacute;cieusement. 	
+
+"
+"nouveauMdp_titre","Choix du mot de passe :"
+"nouveauMdp_ancien_mdp","Ancien mot de passe :"
+"nouveauMdp_nouveau_mdp","Mot de passe :"
+"nouveauMdp_nouveau_mdp_2","Confirmation :"
+"nouveauMdp_connexion","Enregistrer"
+"nouveauMdp_messageErreur_1","Mots de passe invalides "
+
+
+	
+// accueil.php
+
+
+
+	
+// tutoriel.php
+"tutoriel_titre","Tutoriel"
+"COM_LIVEOPTIM_TUTO","<div ><img src='http://liveoptim.veille-mkt.com//img/layout/video.png' alt='' style='float:left; margin: 0px 20px 0px 20px;'><div style='padding-top:80px;'><p style='font-size:18px'>Laissez-vous guider par la vidéo tutoriel en 
+<u><a href='http://www.youtube.com/mktvideolab' target='_blank'>cliquant ici</a></u></p></div></div>
+<div><img src='http://liveoptim.veille-mkt.com//img/layout/book.png' alt='' style='float:left; margin: 0px 20px 0px 20px;'><div style='padding-top:80px; margin-top:70px;'><p style='font-size:18px'>Téléchargez le tutoriel complet du plugin Liveoptim pour Magento en 
+<u><a href='http://www.liveoptim.com/docs/magento_tutoriel_fr.pdf' target='_blank'>cliquant ici</a></u></p></div></div>"
+
+"tutoriel_contenu","
+<p>T&eacute;l&eacute;chargez le tutoriel complet du plugin Liveoptim pour Magento en <u><a href='http://www.liveoptim.com/docs/magento_tutoriel_fr.pdf' target='_blank'>cliquant ici</a></u></p>
+
+"
+
+
+
+// listerBaliseIgnore.php
+
+"listerBaliseIgnore_accueil","Accueil"
+"hintPattern_config_Export","<div class="hint2">		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>	<p>Exportez votre base de mots-clés/pages cible et vos paramètres avant toute désactivation du plugin ou mise à jour ! </p>		         	   			</div>"
+"hintPattern_config_csv","<div class="hint2">		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>		<p> Vous pouvez réaliser l’import de vos paramètres ; il vous suffit de choisir la table que vous souhaitez importer ou d’importer toutes les tables (soit 6 tables) en zip. 
+</p> 	         	   			</div>"
+"hintPattern_config_limite","<div class="hint2">		<img  src='/skin/adminhtml/base/default/img/hint.png' alt="?"/>			<p>Paramétrez une limite haute d'optimisations
+       </p>            
+       <h2>Conseils d'utilisation :</h2>           
+        <ul>            
+       <li>Par défaut, limite de 5 optimisation du même mot-clé dans une page<br />
+       </li>
+       <li>Nous vous conseillons de ne pas aller au-délà.</li>
+       <li>
+       Vous pouvez diminuer cette valeur si vous le souhaitez !/li>                
+        </ul>             	   			</div>"
+"hintPattern_config","<div class='hint2'>		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>			<p>Activez / Désactivez la fonction via ce bouton
+          </p>        	   			</div>	"
+"listerBaliseIgnore_balises_ignores","Exceptions de traitement"
+"listerBaliseIgnore_titre","Exceptions de traitement"
+"listerBaliseIgnore_nom","Nom"
+"listerBaliseIgnore_text1","<div style='margin-top:20px'>
+<p><span style='font-size: 18px;font-weight:bold; color:#bf4122'>Bienvenue dans votre espace Optimisation :
+Vous trouvez ici les balises sur lesquelles la fonction ne repassera pas !
+</span></p>
+<span style='font-size :18px; font-weight:bold'>
+'Il s'agit d'un paramétrage avancé. Nous vous conseillons de laisser le paramétrage par défaut'<br/><br/>
+</span>
+</div>"
+"listerBaliseIgnore_action","Action"
+"listerBaliseIgnore_text","<div style='margin-top:20px'>
+<p><span style='font-size: 18px;font-weight:bold; color:#bf4122'>Bienvenue dans votre espace Optimisation :
+Personnalisez les pages traitées par LiveOptim !
+</span></p>
+<span style='font-size: 18px;font-weight:bold; '>
+Ajoutez la page de votre site que vous ne souhaitez pas optimiser avec LiveOptim !
+</span>
+
+
+</div>"
+"listerBaliseIgnore_confirmation_suppression","Etes-vous sur de vouloir supprimer cette restriction ?"
+"listerBaliseIgnore_supprimer","Supprimer"
+"listerBaliseIgnore_modifier","Modifier"
+"listerBaliseIgnore_ajouter","Ajouter"
+"hintBaliseIgnore","	<div class='hint2'><img  src='%s' alt='?'/>	<p>Indiquez ici les balises au sein desquelles le contenu ne doit pas être traité par LiveOptim</p></div>"
+
+// layout.php, layoutConnexion.php, layoutNouveauMdp.php
+"layout_title","Admin de Liveoptim"
+"layout_deconnexion","Déconnexion"
+"layout_liveoptim","Liveoptim"
+
+// listerMotCle.php
+"COM_LIVEOPTIM_BOUTON_RANKING","<a class='btn_rank'  href='#'  onclick='ajaxOuvrirFenetreNouveauRapport();'>Lance ranking</a>"
+"COM_LIVEOPTIM_MS_APRES","Veuillez vous connecter sur <a  id='lien_so' href='http://www.statoptim.com/controleur.php?cible=identification&cible2=apercu-rapport&recherche=ranking&id_projet=' target='_blank' >Statoptim</a> pour voir les positions de votre site.Munissez-vous de vos accès (envoyés par mail à votre inscription)."
+"COM_LIVEOPTIM_MS_AVANT","Veuillez patienter durant le ranking.(Ne pas fermer cette fenêtre)"
+"listerMotCle_table_requete_text","<div style='margin-top:20px'><p><span style='font-size: 18px;font-weight:bold; color:#bf4122'>Bienvenue dans votre espace Optimisation :<br />Renseignez ici vos mots-clés et boostez ainsi votre trafic !</span></p><ol style='font-size:14px;'><li>Ajoutez un mot-clé dans 'Requête'</li><li>Associez lui une page de votre site</li>  <li>Cliquez sur 'ajouter', et ainsi de suite pour chaque mot-clé. </li></ol><em>(NB: Plus de conseils en cliquant sur <img class='hint' src='/skin/adminhtml/base/default/img/hint.png' alt='?'> à côté de chaque élément)</em><br><br></div>"
+"hintMotCle","	<div class='hint2'><img  src='%s' alt='?'/>	<p>Renseignez les expressions clés stratégiques pour votre positionnement, 	la ou  les pages cibles associées et leur ordre de traitement (si vous définissez plusieurs pages cibles pour une même expression clé)</p>	<h2>Conseils d'utilisation :</h2>	<ul>	<li>Variez les pages Cibles en fonction de vos expressions clés.</li><li>Ne modifiez pas trop fréquemment les pages cibles d’une expression clé</li></ul>	   	</div>	   	"
+"hintMotCle_position","<div class="hint2">		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>			<p>Vous pouvez définir pour un même mot-clé plusieurs pages associées.<br/> La position sert uniquement dans ce cas là.</p><h2>Conseils d'utilisation :</h2>            <ul>            <li>Renseignez plusieurs URLs pour un même mot-clé afin de diversifier les pages cibles<br /></li>  <li>Les URLS de ces pages ont alors triées selon un ordre de priorité qui leur est attribué et<br/> que vous pouvez définir (via les flèches ou en renseignant une valeur).</li>             <li>La fonction fera alors un premier lien vers la première url&#44;<br/> et un second lien vers la seconde url&#44; pour le même contenu</li>      <li>NB : il ne s'agit pas de l'ordre des mots-clés mais celui des URLs.</li>         </ul>  	   			</div>
+"hintMotCle_destination","<div class="hint2">		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>			<p>Renseignez ici une ou plusieurs pages associées au mot-clé. </p><p>Il s'agit de la page que vous souhaitez positionner sur cette expression clé.</p>            <h2>Conseils d'utilisation :</h2>            <ul>            <li>Renseignez plusieurs URLs pour un même mot-clé afin de diversifier les pages cibles.<br />Il vous suffit d'ajouter le même mot-clé avec une URL différente</li>                </ul>    	   			</div>
+"hintMotCle_requete","	<div class="hint2">		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/><p> Renseignez ici les expressions clés sur lesquelles vous souhaitez être visible dans les moteurs. </p>            <h2>Conseils d'utilisation :</h2>            <ul>            <span class='mc'><li >Multipliez les clés d'entrées sur votre site : <br />Mixez mots-clés génériques et mots-clés plus longue traine. </li></span><br /><li> Exemple : <br />mot-clé générique : 'mode'<br />mot-clé longue traine : "blog de mode féminine"<br /><br />mot-clé générique : 'voyage'<br />mot-clé longue traine : 'voyage londres pas cher'<br /></li><br /><li>Ces mots-clés&#44; pris individuellement&#44; génèrent peu de trafic mais&#44; une fois cumulés&#44; peuvent peser jusqu’à 80 &#37; de votre trafic.</li>                </ul>    	   			</div>
+"listerMotCle_accueil","Accueil"
+"listerMotCle_mots_cles","Mots Clés"
+"listerMotCle_titre","Gestion des expressions clés et des pages cibles"
+"listerMotCle_table_requete","Mot Clés"
+"listerMotCle_table_destination","Adresse de la page cible (<em>avec préfixe HTTP://)"
+"listerMotCle_table_position","Position"
+"listerMotCle_table_action","Action"
+"listerMotCle_confirmation_suppression","Etes-vous sur de vouloir supprimer ce mot clé ?"
+"listerMotCle_supprimer","Supprimer"
+"listerMotCle_modifier","Modifier"
+"listerMotCle_monter","Monter"
+"listerMotCle_descendre","Descendre"
+"listerMotCle_ajouter","Ajouter"
+"listerMotCle_msg_alert","Veuillez remplir le champ Mot-clé !"
+
+// listerPattern.php
+"hintPattern","	<div class='hint2'><img  src='%s' alt='?'/>	<p>Paramétrez les balises ajoutées par LiveOptim sur un même mot clé à chaque fois qu'il sera rencontré dans une page (hors pages cibles), en utilisant <span class='mc'>{mc}</span> pour indiquer l'expression clé et <span class='url'>{url}</span> pour indiquer l'URL cible pour les liens. Vous pouvez également choisir de traiter le schéma en boucle.</p><h2>Exemple, pour opérer le traitement ci-dessous : </h2><ul><li>&lt;strong&gt;<span class='mc'>Expression clé</span>&lt;/strong&gt;<em> (première occurence)</em></li><li>&lt;a href=”<span class='url'>http://www.example.com/page-cible.html</span>”&gt;<span class='mc'>Expression clé</span>&lt;/a&gt;<em>(deuxième occurence)</em></li><li><span class='mc'>Expression clé</span><em> (troisième occurence)</em></li></ul><h2>Renseignez la structure suivante</h2><ul>	<li>&lt;strong&gt;<span class='mc'>{mc}</span>&lt;/strong&gt;</li>	<li>&lt;a href=”<span class='url'>{url}</span>”&gt;<span class='mc'>{mc}</span>&lt;/a&gt;</li>	<li><span class='mc'>{mc}</span></li>	</ul></div>	   	"
+"listerPattern_accueil","Accueil"
+"hintPattern_structure","<div class="hint2">		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>	<p>Paramétrez les balises ajoutées par LiveOptim sur un même mot clé à chaque fois qu'il sera rencontré dans une page (hors pages cibles), en utilisant <span class="mc">{mc}</span> pour indiquer l'expression clé et 		<span class="url">{url}</span> pour indiquer 		l'URL cible pour les liens. Vous pouvez également choisir de traiter le schéma en boucle.</p><h2>Exemple, pour opérer le traitement ci-dessous : </h2>				<ul><li>&lt;strong&gt;<span class="mc">Expression clé</span>&lt;/strong&gt;<em> (première occurence)</em></li>		<li>&lt;a href=”<span class="url">http://www.example.com/page-cible.html</span>”&gt;<span class="mc">Expression clé</span>&lt;/a&gt;<em>(deuxième occurence)</em></li><li><span class="mc">Expression clé</span><em> (troisième occurence)</em></li>				</ul>		<h2>Renseignez la structure suivante</h2>				<ul>			<li>&lt;strong&gt;<span class="mc">{mc}</span>&lt;/strong&gt;</li>			<li>&lt;a href=”<span class="url">{url}</span>”&gt;<span class="mc">{mc}</span>&lt;/a&gt;</li>					<li><span class="mc">{mc}</span></li>	</ul>		</div>"
+"listerPattern_pattern","Schéma de balisage global"
+"listerPattern_titre","Schéma de balisage global"
+"listerPattern_boucler","Effectuer le traitement en boucle : "
+"listerPattern_text","<div style='margin-top:20px'><p><span style='font-size: 18px;font-weight:bold; color:#bf4122'>Bienvenue dans votre espace Optimisation :Personnalisez ici les optimisations appliquées à vos contenus !</span></p><ol style='font-size:14px;'><li>Solution 1 : laissez le paramétrage par défaut</li><li>Solution 2 : personnalise le pour s'adapter à vos pratiques !</li></ol><em>(NB: Plus de conseils en cliquant sur <img class='hint' src='/skin/adminhtml/base/default/img/hint.png' alt='?'> à côté de chaque élément)</em></div>"
+"listerPattern_oui","Oui"
+"listerPattern_non","Non"
+"listerPattern_table_structure","Structure"
+"listerPattern_table_position","Position"
+"listerPattern_table_action","Action"
+"listerPattern_confirmation_suppression","Etes-vous sur de vouloir supprimer ce schéma ?"
+"listerPattern_supprimer","Supprimer"
+"listerPattern_modifier","Modifier"
+"listerPattern_monter","Monter"
+"listerPattern_descendre","Descendre"
+"listerPattern_ajouter","Ajouter"
+
+
+
+// listerPatternCible.php
+"hintPatternCible","	<div class='hint2'><img  src='%s' alt='?'/>	<p>Paramétrez les balises ajoutées par LiveOptim sur un même mot clé à chaque fois qu'il sera rencontré dans une page cible associée, en utilisant <span class='mc'>{mc}</span> pour indiquer l'expression clé et <span class='url'>{url}</span> pour indiquer l'URL cible pour les liens. Vous pouvez également choisir de traiter le schéma en boucle.</p><h2>Exemple, opérer le traitement ci-dessous : </h2><ul><li>&lt;strong&gt;<span class='mc'>Expression clé</span>&lt;/strong&gt;</li><li>&lt;a href=”<span class='url'>http://www.example.com/page-cible.html</span>”&gt;<span class='mc'>Expression clé</span>&lt;/a&gt;</li><li><span class='mc'>Expression clé</span></li></ul><h2>Renseignez la structure suivante</h2><ul>	<li>&lt;strong&gt;<span class='mc'>{mc}</span>&lt;/strong&gt;</li>	<li>&lt;a href=”<span class='url'>{url}</span><span class='mc'>{mc}</span>&lt;/a&gt;</li>	<li><span class='mc'>{mc}</span></li>	</ul></div>	   	"
+"listerPatternCible_accueil","Accueil"
+"hintPattern_cible_structure","<div class="hint2">		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>	<p>Paramétrez les balises ajoutées par LiveOptim sur un même mot clé à chaque fois qu'il sera rencontré dans une page cible associée, en utilisant <span class="mc">{mc}</span> pour indiquer l'expression clé et 		<span class="url">{url}</span> pour indiquer l'URL cible pour les liens. Vous pouvez également choisir de traiter le schéma en boucle.</p><h2>Exemple, opérer le traitement ci-dessous : </h2>				<ul><li>&lt;strong&gt;<span class="mc">Expression clé</span>&lt;/strong&gt;</li>		<li>&lt;a href=”<span class="url">http://www.example.com/page-cible.html</span>”&gt;<span class="mc">Expression clé</span>&lt;/a&gt;</li><li><span class="mc">Expression clé</span></li>				</ul>		<h2>Renseignez la structure suivante</h2>				<ul>			<li>&lt;strong&gt;<span class="mc">{mc}</span>&lt;/strong&gt;</li>			<li>&lt;a href=”<span class="url">{url}</span>”&gt;<span class="mc">{mc}</span>&lt;/a&gt;</li>					<li><span class="mc">{mc}</span></li>	</ul>		</div>"
+"listerPatternCible_text","<div style='margin-top:20px'>
+<p><span style='font-size: 18px;font-weight:bold; color:#bf4122'>Bienvenue dans votre espace Optimisation :
+Personnaliser ici les optimisations appliquées spécifiquement aux pages cibles (c'est-à-dire les pages associés à un mot-clé)!
+</span></p><ol style='font-size:14px;'><li>
+Solution 1 : laissez le paramétrage par défaut</li>
+<li>Solution 2 : personnalise le pour s'adapter à vos pratiques !</li></ol>
+<em>(NB: Plus de conseils en cliquant sur <img class='hint' src='/skin/adminhtml/base/default/img/hint.png' alt='?'> à côté de chaque élément)</em></div>
+
+"
+"listerPatternCible_pattern","Schéma de balisage sur page cible"
+"listerPatternCible_titre","Schéma de balisage sur page cible"
+"listerPatternCible_boucler","Boucler"
+"listerPatternCible_oui","Oui"
+"listerPatternCible_non","Non"
+"listerPatternCible_table_structure","Structure"
+"listerPatternCible_table_position","Position"
+"listerPatternCible_table_action","Action"
+"listerPatternCible_confirmation_suppression","Etes-vous sur de vouloir supprimer ce schéma ?"
+"listerPatternCible_supprimer","Supprimer"
+"listerPatternCible_modifier","Modifier"
+"listerPatternCible_monter","Monter"
+"listerPatternCible_descendre","Descendre"
+"listerPatternCible_ajouter","Ajouter"
+
+
+
+"config_limite_capping","Limite"
+"config_valcap_sup","Vous allez utiliser une valeur déconseillée par MKT. Renseignez-vous sur www.liveoptim.com"
+"config_valcap_nan","La limite doit être un entier"
+"config_valcap_null","Veuillez renseigner une valeur"
+"config_export_csv","Faire une sauvegarde de la configuration de LiveOptim"
+"config_table_file","Fichier :"
+"config_table_all","Toutes (zip)"
+"config_fichier_vide","Veuillez uploade un fichier"
+"config_fichier_ncsv","Le fichier n'est pas un CSV"
+"config_fichier_nzip","Le fichier n'est pas une archive ZIP"
+"config_tout_cocher","Tout cocher"
+"config_tout_decocher","Tout décocher"
+"config_bouton_export","Export CSV"
+"config_importation","Table à importer : "
+"config_import_validation","Valider"
+"config_backup_title","Sauvegarde des param&egrave;tres"
+"config_import_title","Restauration des param&egrave;tres"
+"config_backup_sql","Export SQL"
+"pages_restrintes","Page"
+
+
+"COM_LIVEOPTIM_LICENCE_FREE","Vous utilisez la version gratuite de LiveOptim, certaines fonctionnalités sont désactivées.<br />
+								<b>Passez à la version premium pour profiter de toutes les fonctionnalités<br />
+								ESSAI GRATUIT PENDANT 30 JOURS.</b>"
+"COM_LIVEOPTIM_BOUTON_PRENIUM","<a class='btn_Prenuim'  href='#' onclick='displayInfoPrenium()'><b>MISE À JOUR PREMIUM</b> <br /><i>(30 jours gratuits)</i></a>"
+"hintPrenium","<div onclick='fenetreInfoPreniumFermer()' class='hint2'>		<img alt='?' src='/skin/adminhtml/base/default/img/hint.png'><br>	Cette fonctionalité est indisponible dans la version gratuite. <br> Passez à la version Premium pour en disposer.		</div>"
+"COM_LIVEOPTIM_MSG_MOT_CLE","Vous ne pouvez ajouter que 10 associations mot clé/page cible. Upgradez votre LiveOptim : plus aucune limite de mots-clés"
+"COM_LIVEOPTIM_MSG_PAGES_RESTREINTE","Vous n'avez le droit qu'à 10 pages restreintes. Passez à la version Premium pour ne plus avoir de limite."
+
+//Cache
+"COM_LIVEOPTIM_CACHE_TITRE","Gestion du cache"
+"COM_LIVEOPTIM_CACHE_TEXT","LiveOptim utilise un système de cache pour accélérer le traitement de vos pages<br />Cliquer ci-dessous pour vider ce cache"
+"COM_LIVEOPTIM_BTN_CACHE_VIDE",VIDER LE CACHE"
+"COM_LIVEOPTIM_BTN_CACHE_ACTIV","Activer"
+
+//Inscription
+"inscription_titre","Inscription"
+"inscription_texte","L'utilisation du plugin requiert la création d'un compte auprès de nos services"
+"inscription_email","Email : "
+"inscription_url","URL de votre site :"
+"inscription_pass","Mot de passe de votre compte :"
+"inscription_btnInscrip","COMMENCER L'OPTIMISATION"
+
+"inscription_mail_vide","Vous devez indiquer un e-mail"
+"inscription_mail_trop_long","Vous devez indiquer un e-mail plus court"
+"inscription_mail_invalid","Vous devez indiquer un e-mail valide"
+"inscription_url_vide","Vous devez indiquer le nom de domaine sur lequel sera activé LiveOptim<sup>&copy;</sup>"
+"inscription_url_trop_long","Vous devez indiquer un nom de domaine plus court"
+"inscription_url_deja_util","Ce nom de domaine a déjà été utilisé"
+"inscription_compte_already_create_wrong_email","Le compte existe déja! Veuillez indiquer l'adresse avec laquelle vous vous ête inscrit."
+"inscription_compte_already_create_wrong_password","Compte existant, veuillez renseigner le mot de passe de votre compte LiveOptim."
+
+
+//Fenetre Prenuim
+
+"COM_LIVEOPTIM_FNT_PRE_ALL_PRODUCT","TOUT NOS PRODUITS"
+"COM_LIVEOPTIM_FNT_PRE_OTHER_PRODUCT","Découvrez aussi les autres produits de la gamme de LiveOptim"
+"COM_LIVEOPTIM_FNT_PRE_MORE_INFO","+ D'INFO"
+
+"COM_LIVEOPTIM_FNT_PRE_TXT_MKT900","1 Prestation TOTALE d'un an sur votre site web.
+										Hotline gratuite, timeline 7/7, team support, etc... <br />"
+"COM_LIVEOPTIM_FNT_PRE_PRIX_MKT900","900&euro; TTC"
+"COM_LIVEOPTIM_FNT_PRE_TXT_SO"," Toutes vos analyses SEO sur 1 plateforme !
+								Audit de site, ranking à la demande, suivi analytic des positions, etc...<br />"
+"COM_LIVEOPTIM_FNT_PRE_PRIX_SO","9.90&euro; TTC / MOIS"
+"COM_LIVEOPTIM_FNT_PRE_COMING_SOON","Bientôt"
+
+
+
+"COM_LIVEOPTIM_FNT_PRE_UN_KEY","Mots clés illimités "
+"COM_LIVEOPTIM_FNT_PRE_UN_TARGET","Pages cible illimitées "
+"COM_LIVEOPTIM_FNT_PRE_CACHE","Système de cache inclus <br />(Optimisation du temps de chargement) "
+"COM_LIVEOPTIM_FNT_PRE_CUSTOM_TAG","Personalisation des schémas d'optimisation"
+"COM_LIVEOPTIM_FNT_PRE_TARGET","Schéma d'optimisation spécifique sur pages cibles"
+"COM_LIVEOPTIM_FNT_PRE_LOOP","Option: schéma en boucle "
+"COM_LIVEOPTIM_FNT_PRE_CAPPING","Système de Capping <br />(Alerte de Sur-Optimisation) "
+"COM_LIVEOPTIM_FNT_PRE_EXCLUD_PAGES","Option : pages exclues (sans optimisation)"
+"COM_LIVEOPTIM_FNT_PRE_EXECEPTION","Personnalisation des balises restreintes"
+"COM_LIVEOPTIM_FNT_PRE_SUPPORT","Support Premium "
+"COM_LIVEOPTIM_FNT_PRE_TWITER","Support 24/7 Twiter Timeline "
+"COM_LIVEOPTIM_FNT_PRE_HOTLINE","Hotline Gratuit"
+"COM_LIVEOPTIM_FNT_PRE_CHAT","LiveChat "
+"COM_LIVEOPTIM_FNT_PRE_UPGRADE","METTRE A JOUR"
+
+
+// code401.php
+"code401_titre","Code 401."
+
+// code403.php
+"code403_titre","Code 403."
+
+// code404.php
+"code404_titre","Code 404."

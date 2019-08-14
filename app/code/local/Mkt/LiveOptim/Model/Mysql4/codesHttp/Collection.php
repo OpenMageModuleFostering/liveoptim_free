@@ -1,0 +1,2 @@
+<?php class Mkt_LiveOptim_Model_Mysql4_MotCle_Collection extends Mage_Core_Model_Mysql4_Collection_Abstract{public function _construct(){parent::_construct();$this->_init("\x6c\x69\x76\x65\x6fp\x74\x69\x6d/mot\x63l\x65");}}
+?>

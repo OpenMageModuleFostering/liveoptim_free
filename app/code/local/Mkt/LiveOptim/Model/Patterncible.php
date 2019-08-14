@@ -1,0 +1,2 @@
+<?php class Mkt_LiveOptim_Model_PatternCible extends Mage_Core_Model_Abstract{public function _construct(){parent::_construct();$this->_init("\x6c\x69v\x65\x6fp\x74im/p\x61t\x74\x65\x72n\x63\x69\x62\x6ce");}}
+?>

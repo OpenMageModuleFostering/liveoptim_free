@@ -1,0 +1,1 @@
+<h2><?php echo $langue['code401_titre']; ?></h2>

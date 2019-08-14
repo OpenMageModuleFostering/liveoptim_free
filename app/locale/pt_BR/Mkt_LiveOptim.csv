@@ -1,0 +1,502 @@
+﻿//menu
+"menu_accueil","LiveOptim"
+"menu_tutoriel","Tutorial"
+"menu_motcle","Palabras clave"
+"menu_pattern","Esquema general"
+"menu_patterncible","Esquema de páginas meta"
+"menu_baliseignorer","Excepción"
+"menu_config","Configuração"
+"menu_pages_restreintes","Páginas restritas"
+
+"all_expire","Utilizando uma versão limitada da LiveOptim.<br />
+Benefício efeitos da LiveOptim sem nenhum limite de palavras-chave e de personalização, compre a sua licença agora e encontre a sua configuração avançada! !"
+"all_non_inscrit","Você não pode usar o módulo sem antes ter se registrado. Você pode se registrar no <a class='link_liveoptim'href='http://www.liveoptim.com' target='_blank'>site de LiveOptim</a>"
+"all_compte_test","Você está usando uma versão experimental.<br />
+Benefício efeitos LiveOptim em seu site, sem nenhum limite de tempo, compre a sua licença agora!"
+"all_bouton_buy","<a class='btn_buy'  href='http://www.liveoptim.com/pt/paiement/choix-du-mode.html'>COMPRE</a>"
+"all_bouton_MaJ","<a class='btn_MaJ'  href='%s'>atualizações<br />disponíveis</a>"
+
+"parametrage","Configuração"
+"contact","Fale conosco"
+"facebook","Junte-se a nós"
+"twitter","Precisa de ajuda?"
+"twitter2","@liveoptim"
+"inscription_message","Inscreva o seu site para ativar o LiveOptim"
+"accueil_erreur_pas_de_compte","Conta inativa."
+"accueil_inscrivez_vous_ici","Inscrição"
+"accueil_copte_client_actif","Conta ativada"
+"accueil_compte_client_inactif","Conta inativa." 
+"accueil_mots_cles","Palavras-chave"
+"accueil_balise_ignores","Exceções de tratamento"
+"accueil_pattern","Esquema de marcação global"
+"accueil_pattern_cible","Esquema de marcação na página de destino"
+"accueil_nouveau_mdp","Nova senha"
+"modifier","Modificar"
+
+
+
+// connexion.php
+"connexion_1","Acesso à administração"
+"connexion_content","Digite abaixo a sua senha de conexão à administração do LiveOptim<sup>&copy;</sup>"
+"connexion_titre","Senha :"
+"connexion_connexion","Conexão"
+"connexion_messageErreur_1","Senha incorreta"
+
+
+
+// nouveauMdp.php
+"nouveauMdp_titre","Bem-vindo ao LiveOptim<sup>&copy;</sup>"
+"nouveauMdp_content","Defina a senha que servir para se conectar com a administração do módulo e guarde-a cuidadosamente."
+"nouveauMdp_titre","Escolha da senha :"
+"nouveauMdp_ancien_mdp","Senha antiga :"
+"nouveauMdp_nouveau_mdp","Senha :"
+"nouveauMdp_nouveau_mdp_2","Confirmação :"
+"nouveauMdp_connexion","Salvar"
+"nouveauMdp_messageErreur_1","Senhas inválidas "
+
+
+
+// accueil.php
+"accueil_accueil","Página Inicial"
+"accueil_titre","Bem-vindo ao seu painel de administração do LiveOptim"
+"accueil_contenu","
+		<p>
+					  A partir desta interface, você poderá configurar a execução do LiveOptim no seu site:
+
+	   </p>
+
+	   <ul>
+
+			  <li>
+
+					 Expressões-chave
+
+					 <ul>
+
+						   <li>
+
+								  <a href='%s'>Acréscimo de expressões-chave</a>
+
+								  <p>
+
+										 Adicione ou modifique a sua lista de expressões-chave estratégicas e
+
+										 as URLs das páginas de destino associadas
+
+								  </p>
+
+						   </li>
+
+					 </ul>
+
+			  </li>
+
+			  <li>
+
+					 Configuração:
+
+					 <ul>
+
+						   <li>
+
+								  <a href='%s'>Esquema de marcação global</a>
+
+								  <p>
+
+										Esquema de otimização aplicado por função default<span class='lo_ps'>*</span> sobre o expressões-chave presentes nos seus conteúdos e sua ordem de de exibição
+
+								  </p>
+
+						   </li>
+
+						   <li>
+
+								  <a href='%s'>Esquema de marcação na página de destino</a><span class='txt_prenium'>(versão premium)</span>
+
+								  <p>
+
+										 Modifique a configuração das marcações nas expressões-chave quando elas
+
+										 forem tratadas em sua(s) página(s) de destino
+
+								  </p>
+
+						   </li>
+
+						   <li>
+
+								  <a href='%s'>Exceções de tratamento</a>
+
+								  <p>
+
+										Marcações nas quais os conteúdos não devem ser
+										processados pela função<span class='lo_ps'>*</span></p>.
+
+								  </p>
+
+						   </li>
+
+						   <li>
+
+								   <a href='%s'>Páginas sem otimizações</a><span class='txt_prenium'>(versão premium)</span>
+
+								  <p>
+
+										 Modifique páginas em quais os conteúdos não devem ser processados pela função
+
+								  </p>
+
+						   </li>
+
+					 </ul>
+
+			  </li>
+
+	   </ul>
+	   <p class='txt_etoile'><i><span class='lo_ps'>*</span> Modificação disponível na versão premium</i></p>"
+
+
+
+// tutoriel.php
+"tutoriel_titre","Tutoriel" 
+"COM_LIVEOPTIM_TUTO","
+	<div >
+		<img src='http://www.liveoptim.com/img/layout/video.png' alt='' style='float:left; margin: 0px 20px 0px 20px;'>
+		<div style='padding-top:80px;'>
+			<p style='font-size:18px'>Deixe-nos guiá-lo pelo vídeo tutorial  <u><a href='http://www.youtube.com/watch?v=b2rbn4gphYc' target='_blank'>clicando aqui</a></u>
+			</p>
+		</div>
+	</div>
+	<div>
+		<img src='http://www.liveoptim.com/img/layout/book.png' alt='' style='float:left; margin: 0px 20px 0px 20px;'>
+		<div style='padding-top:80px; margin-top:70px;'>
+			<p style='font-size:18px'>Faça o download do tutorial completo do plugin do Liveoptim para Magneto <u><a href='http://www.liveoptim.com/docs/magento_tutoriel_bre.pdf' target='_blank'>clicando aqui</a></u>
+			</p>
+		</div>
+	</div>"
+
+"tutoriel_contenu","<p>Você pode baixar o tutorial clicando no link abaixo <u><a href='http://www.liveoptim.com/docs/magento_tutoriel_bre.pdf' target='_blank'>Tutorial</a></u></p>" 
+
+
+
+// listerBaliseIgnore.php
+"hintBaliseIgnore","<div class='hint2'><img  src='%s' alt='?'/><p>Insira aqui as marcações nas quais o conteúdo não deve ser processado pelo LiveOptim</p></div>"
+"listerBaliseIgnore_accueil","Página Inicial"
+"listerBaliseIgnore_balises_ignores","Exceções de tratamento"
+"listerBaliseIgnore_titre","Exceções de tratamento"
+"listerBaliseIgnore_nom","Nome"
+"listerBaliseIgnore_action","Ação"
+"listerBaliseIgnore_confirmation_suppression","Tem certeza que quer remover esta restrição?"
+"listerBaliseIgnore_supprimer","Remover"
+"listerBaliseIgnore_modifier","Modificar"
+"listerBaliseIgnore_ajouter","Suplementar" 
+
+
+
+// layout.php, layoutConnexion.php, layoutNouveauMdp.php
+"layout_title","Admin de Liveoptim"
+"layout_deconnexion","Logoff"
+"layout_liveoptim","Liveoptim"
+
+
+
+// listerMotCle.php
+"COM_LIVEOPTIM_BOUTON_RANKING","<a class='btn_rank'  href='#'  onclick='ajaxOuvrirFenetreNouveauRapport();'>Start ranking</a>"
+"COM_LIVEOPTIM_MS_APRES","
+	Por favor efectue login <a  id='lien_so' href='http://www.statoptim.com/controleur.php?cible=identification&cible2=apercu-rapport&recherche=ranking&id_projet=' target='_blank' >Statoptim</a> para ver a posição do seu site.Por favor, tenham o seu acesso (enviado para a sua inscrição)."
+"COM_LIVEOPTIM_MS_AVANT","Por favor, aguarde enquanto o ranking. (Não feche esta janela)"
+"hintMotCle","
+	<div class='hint2'><img  src='%s' alt='?'/>
+		<p>Insira as expressões-chave estratégicas para o seu posicionamento,a(s) página(s) de destino associada(s) e a ordem de tratamento (se você definir várias páginas de destino para uma mesma expressão-chave)</p>
+		<h2>Dicas de uso:</h2>
+		<ul>
+			<li>Varie as páginas de destino em função de suas expressões-chave.</li>
+			<li>Não modifique com muita frequência as páginas de destino de uma expressão-chave</li>
+		</ul>
+	</div>"
+"listerMotCle_accueil","Página Inicial"
+"listerMotCle_mots_cles","Palavras-chave"
+"listerMotCle_titre","Gerenciamento de expressões-chave e páginas de destino"
+"listerMotCle_table_requete","Palabras chave"
+"listerMotCle_table_destination","Endereço da página de destino (<em>com prefixo HTTP://</em>)"
+"listerMotCle_table_position","Posição"
+"listerMotCle_table_action","Ação"
+"listerMotCle_confirmation_suppression","Tem certeza que quer remover esta palavra-chave?"
+"listerMotCle_supprimer","Remover"
+"listerMotCle_modifier","Modificar"
+"listerMotCle_monter","Para Cima"
+"listerMotCle_descendre","Para Baixo"
+"listerMotCle_ajouter","Suplementar" 
+"listerMotCle_msg_alert","Por favor preencha a parte palavra-chave !"
+
+"listerMotCle_table_requete_text","
+	<div style='margin-top:20px'>
+		<p><span style='font-size: 18px;font-weight:bold; color:#bf4122'>Bem-vindo ao seu espaço de a sua otimização: Insira aqui as palavras-chave e impulsione o seu tráfego! </span></p>
+		<ol style='font-size:14px;'>
+			<li>Adicione uma palavra-chave em &#34;Solicitar&#34;</li>
+			<li>Associe-o a uma página do seu site</li>
+			<li>Clique em &#34;Adicionar&#34; e assim por diante para cada palavra-chave. </li>
+		</ol>
+		<em>(NB: Para saber mais, clique em  <img class='hint' src='/skin/adminhtml/base/default/img/hint.png' alt='?'> que está ao lado de cada elemento)</em><br>
+		<br>
+	</div>"
+"listerBaliseIgnore_text1","
+	<div style='margin-top:20px'>
+		<p><span style='font-size: 18px;font-weight:bold; color:#bf4122'>Bem-vindo ao seu espaço de a sua otimização: Aqui você encontra os limites que a função não ultrapassar !</span></p>
+		<span style='font-size :18px; font-weight:bold'>Esta é uma configuração avançada. Recomendamos que você deixe a configuração padrão<br/><br/></span>
+	</div>"
+"listerPattern_text","
+	<div style='margin-top:20px'>
+		<p><span style='font-size: 18px;font-weight:bold; color:#bf4122'>Bem-vindo ao seu espaço de a sua otimização: Personalize aqui as otimizações aplicadas ao seu conteúdo !</span></p>
+		<ol style='font-size:14px;'>
+			<li>Solução 1: Deixe a configuração padrão</li>
+			<li>Solução 2: Personalize para adaptá-la às suas práticas !</li>
+		</ol>
+		<em>(NB: Para saber mais, clique em  <img class='hint' src='/skin/adminhtml/base/default/img/hint.png' alt='?'> que está ao lado de cada elemento)</em>
+	</div>"
+"listerPatternCible_text","
+	<div style='margin-top:20px'>
+		<p><span style='font-size: 18px;font-weight:bold; color:#bf4122'>Bem-vindo ao seu espaço de a sua otimização: Personalize aqui as otimizações aplicadas especificamente às páginas de destino (ou seja, páginas associadas à palavra-chave)!</span>
+		</p>
+		<ol style='font-size:14px;'>
+			<li>Solução: Deixe a configuração padrão</li>
+			<li>Solução: Personalize para adaptá-la às suas práticas !</li>
+		</ol>
+		<em>(NB: Para saber mais, clique em  <img class='hint' src='/skin/adminhtml/base/default/img/hint.png' alt='?'> que está ao lado de cada elemento)</em></div>"	
+"listerBaliseIgnore_text","
+	<div style='margin-top:20px'>
+		<p><span style='font-size: 18px;font-weight:bold; color:#bf4122'>Bem-vindo ao seu espaço de a sua otimização: Personalize as páginas processadas pelo LiveOptim!</span></p>
+		<span style='font-size: 18px;font-weight:bold;'>Adicione a página do seu site que você não quer otimizar com LiveOptim !</span>
+	</div>"	
+"hintMotCle_requete","
+	<div class='hint2'>
+		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>
+		<p>Informe aqui as expressões-chave que deseja manter visíveis nos motores.</p>            
+		<h2>Recomendações de uso:</h2>           
+		<ul>            
+			<span class='mc'><li >Multiplique as chaves de entrada no seu site : <br />
+				Misture palavras-chave genéricas e palavras-chave de comprimento mais longo. </li></span><br />
+			<li> Exemplo : <br />palavra-chave genérica: &#34;Modo&#34;<br />
+				palavra-chave de comprimento mais longo &#34;blog de moda feminina&#34;<br /><br />
+				palavra-chave genérica: &#34;Viagemv&#34; <br />
+				palavra-chave de comprimento mais longo &#34;viagem para Londres mais barato&#34;<br />
+			</li><br />
+			<li>Essas palavras-chave&#44; consideradas individualmente&#44; geram algum tráfego mas&#44; quando combinadas&#44; podem representar até 80&#37; do seu tráfego.</li>                
+		</ul>
+	</div>"
+"hintMotCle_destination","
+	<div class='hint2'>
+		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>
+		<p>Informe aqui uma ou mais páginas associadas à palavra-chave. Esta é a página em que você deseja posicionar esta expressão-chave.</p>            
+		<h2>Recomendações de uso :</h2>           
+		<ul>            
+			<li>Informe mais URLs para a mesma palavra-chave para diversificar as páginas-alvo<br />
+				Basta adicionar a mesma palavra-chave com uma URL diferente
+			</li>                
+		</ul>
+	</div>"
+"hintMotCle_position","
+	<div class='hint2'>
+		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>
+		<p>Você pode definir para a mesma palavra-chave  várias páginas associadas. A posição será única neste caso.</p>            
+		<h2>Recomendações de uso: </h2>           
+		<ul>            
+			<li>Informe mais URLs para a mesma palavra-chave para diversificar as páginas-alvo<br /></li>  
+			<li>As URLs dessas páginas serão, então, classificadas em ordem de prioridade que lhe são atribuídas e você pode definir (através de setas ou inserção de valor).</li>             
+			<li>A função fará então um primeiro link para a primeira url e um segundo link para a segunda URL para o mesmo conteúdo</li>      
+			<li>NB: não é a ordem das palavras-chave, mas sim as URLs.</li>         
+		</ul>
+	</div>	"
+"hintPattern_config","
+	<div class='hint2'>
+		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>
+			<p>Ative / desative a função através deste botão</p>
+	</div>	"
+"hintPattern_config_limite","
+	<div class='hint2'>
+		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>
+		<p>Configure um limite alto de otimização</p>            
+		<h2>Recomendações de uso :</h2>           
+        <ul>            
+			<li>Por padrão, limite em 5 otimizações da mesma palavra-chave em uma página<br /></li>
+			<li>Aconselhamos a não ir além disso.</li>
+			<li>Você pode reduzir este valor, se quiser ! </li>                
+        </ul>
+	</div>"	
+"hintPattern_config_Export","
+	<div class='hint2'>
+		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>
+		<p>Exporte sua base de palavras-chave/páginas-alvo e suas configurações antes de desabilitar ou atualizar o plugin! </p>
+	</div>"
+"hintPattern_config_csv","
+	<div class='hint2'>
+		<img  src='/skin/adminhtml/base/default/img/hint.png' alt='?'/>
+		<p> Você pode fazer a importação de suas configurações; basta selecionar a tabela que deseja importar ou importar todas as tabelas (ou seja, 6 tabelas) em zip.</p>
+	</div>"
+// listerPattern.php
+"hintPattern","
+	<div class='hint2'>
+		<img  src='%s' alt='?'/>
+		<p>Configure as marcações adicionadas pelo LiveOptim em uma mesma palavra-chave toda vez que for encontrada em uma página (fora as páginas de destino), utilizando <span class='mc'>{mc}</span> para indicar a expressão-chave e <span class='url'>{url}</span> para indicar a URL de destino para os links. Você também pode optar por tratar o esquema em loop.</p>
+		<h2>Para operar o tratamento abaixo, por exemplo: </h2>
+		<ul>
+			<li>&lt;strong&gt;<span class='mc'>Expressão- chave</span>&lt;/strong&gt;<em> (primeira ocorrência)</em></li>
+			<li>&lt;a href=&#34;<span class='url'>http://www.example.com/page-cible.html</span>&#34;&gt;<span class='mc'>Expressão-chave</span>&lt;/a&gt;<em>(segunda ocorrência)</em></li>
+			<li><span class='mc'>Expressão-chave</span><em> (terceira ocorrência)</em></li>
+		</ul>
+		<h2>Digite a seguinte estrutura</h2>
+		<ul>
+			<li>&lt;strong&gt;<span class='mc'>{mc}</span>&lt;/strong&gt;</li>
+			<li>&lt;a href=&#34;<span class='url'>{url}</span>&#34;&gt;<span class='mc'>{mc}</span>&lt;/a&gt;</li>
+			<li><span class="mc">{mc}</span></li>
+		</ul>
+	</div>"
+"listerPattern_pattern","Esquema de marcação global"
+"listerPattern_titre","Esquema de marcação global"
+"listerPattern_boucler","Realizar o tratamento em loop : "
+"listerPattern_oui","Sim"
+"listerPattern_non","Não"
+"listerPattern_table_structure","Estrutura"
+"listerPattern_table_position","Posição"
+"listerPattern_table_action","Ação"
+"listerPattern_confirmation_suppression","Tem certeza que quer remover este esquema?"
+"listerPattern_supprimer","Remover"
+"listerPattern_modifier","Modificar"
+"listerPattern_monter","Para Cima"
+"listerPattern_descendre","Para Baixo"
+"listerPattern_ajouter","Suplementar" 
+
+
+
+// listerPatternCible.php
+"hintPatternCible","
+	<div class='hint2'>
+		<img  src='%s' alt='?'/>
+		<p>Configure as marcações adicionadas pelo LiveOptim em uma mesma palavra-chave toda vez que que for encontrada em uma página de destino associada, usando <span class='mc'>{mc}</span> para indicar a expressão-chave e	<span class='url'>{url}</span> para indicar a URL de destino para os links. Você também pode optar por tratar o esquema em loop.</p>
+		<h2>Operar o tratamento abaixo, por exemplo: </h2>
+		<ul>
+			<li>&lt;strong&gt;<span class='mc'>Expressão-chave</span>&lt;/strong&gt;</li>
+			<li>&lt;a href=&#34;<span class='url'>http://www.example.com/page-cible.html</span>&#34;&gt;<span class='mc'>Expressão-chave</span>&lt;/a&gt;</li>
+			<li><span class='mc'>Expressão-chave</span></li>
+		</ul>
+		<h2>Digite a seguinte estrutura</h2>
+		<ul>
+			<li>&lt;strong&gt;<span class='mc'>{mc}</span>&lt;/strong&gt;</li>
+			<li>&lt;a href=&#34;<span class='url'>{url}</span>&#34;&gt;<span class='mc'>{mc}</span>&lt;/a&gt;</li>
+			<li><span class="mc">{mc}</span></li>
+		</ul>
+	</div>"		
+"listerPatternCible_accueil","Página Inicial"
+"listerPatternCible_pattern","Esquema de marcação em página de destino"
+"listerPatternCible_titre","Esquema de marcação em página de destino"
+"listerPatternCible_boucler","Em loop"
+"listerPatternCible_oui","Sim"
+"listerPatternCible_non","Não"
+"listerPatternCible_table_structure","Estrutura"
+"listerPatternCible_table_position","Posição"
+"listerPatternCible_table_action","Ação"
+"listerPatternCible_confirmation_suppression","Tem certeza que quer remover este esquema?"
+"listerPatternCible_supprimer","Remover"
+"listerPatternCible_modifier","Modificar"
+"listerPatternCible_monter","Para Cima"
+"listerPatternCible_descendre","Para Baixo"
+"listerPatternCible_ajouter","Suplementar" 
+
+"config_limite_capping","Limite"
+"config_valcap_sup","Você vai utilizar um valor que a MKT não recomenda. Obtenha informações em www.liveoptim.com"
+"config_valcap_nan","O limite deve ser um número inteiro"
+"config_valcap_nan","Informe um valor"
+"config_export_csv","Fazer um backup da configuração de LiveOptim"
+"config_table_file","Arquivo:"
+"config_table_all","Todos (zip)"
+"config_fichier_vide","Faça upload de um arquivo"
+"config_fichier_ncsv","O arquivo não é um CSV"
+"config_fichier_nzip","O arquivo não é um arquivo ZIP"
+"config_tout_cocher","Marcar tudo"
+"config_tout_decocher","Desmarcar tudo"
+"config_bouton_export","Exportar CSV"
+"config_importation","Tabela a importar: "
+"config_import_validation","Validar"
+"config_backup_title","Salvar parâmetros"
+"config_import_title","A Restauração dos parâmetros"
+"config_backup_sql","Exportar SQL"
+
+
+"pages_restrintes","Página"
+
+
+		
+//Cache
+"COM_LIVEOPTIM_CACHE_TITRE","Gerenciamento de cache"
+"COM_LIVEOPTIM_CACHE_TEXT","LiveOptim usa um cache para acelerar o processamento de suas páginas <br />
+								Clique abaixo para suprimir esse cache"
+"COM_LIVEOPTIM_BTN_CACHE_VIDE","ESVAZIAR CACHE"
+"COM_LIVEOPTIM_BTN_CACHE_ACTIV","ATIVAR"
+
+//version FREE
+"COM_LIVEOPTIM_LICENCE_FREE","Você utiliza a versão gratuita de LivOptim, certas funcionalidades estão desativadas. <br />
+								<b>Passe à versão premium para aproveitar todas as funcionalidades:<br />
+								VERSÃO GRATUITA DURANTE 30 DIAS.</b>"
+"COM_LIVEOPTIM_BOUTON_PRENIUM","<a class='btn_Prenuim'  href='#' onclick='displayInfoPrenium()'><b>ATUALIZAÇÃO PREMIUM</b> <br /><i>(30 dias de graça)</i></a>"
+"hintPrenium","<div onclick='fenetreInfoPreniumFermer()' class='hint2'>		<img alt='?' src='/skin/adminhtml/base/default/img/hint.png'><br>Esta funcionalidade nao está disponível na versão gratuita .<br/> Para obtê-la passe  à versão Premium.</div>"
+"COM_LIVEOPTIM_MSG_MOT_CLE","Só pode acrescentar 10 associações palavra-chave/página de destino. Faça um Upgrade ao seu LiveOptim : sem limite de palavras-chave."
+"COM_LIVEOPTIM_MSG_PAGES_RESTREINTE","Só pode escolher 10 páginas no máximo . Passe à versão Premium sem limite."
+
+//Inscription
+"inscription_titre","Registration"
+"inscription_texte","Using the plugin requires creating an account with our services"
+"inscription_email","Email : "
+"inscription_url","URL of your site:"
+"inscription_pass","Password for your account:"
+"inscription_btnInscrip","START OPTIMIZATION"
+
+"inscription_mail_vide","É preciso inserir um e-mail"
+"inscription_mail_trop_long","É preciso inserir um e-mail mais curto"
+"inscription_mail_invalid","É preciso inserir um e-mail válido"
+"inscription_url_vide","É preciso inserir o nome do domínio no qual o LiveOptim<sup>&copy;</sup> será ativado"
+"inscription_url_trop_long","É preciso inserir um nome de domínio mais curto"
+"inscription_url_deja_util","Este nome de domínio já foi utilizado"
+"inscription_compte_already_create_wrong_email","The account already exists! Please indicate the address with which you registered."
+"inscription_compte_already_create_wrong_password","Existing account, please enter the password of your account LiveOptim."
+
+//Fenetre Prenuim
+
+"COM_LIVEOPTIM_FNT_PRE_ALL_PRODUCT","TODOS OS NOSSOS PRODUTOS"
+"COM_LIVEOPTIM_FNT_PRE_OTHER_PRODUCT","Veja também os outros produtos da gama de LiveOptim"
+"COM_LIVEOPTIM_FNT_PRE_MORE_INFO","MORE INFO"
+"COM_LIVEOPTIM_FNT_PRE_TXT_MKT900","1-year SEO service for your website.<br />
+										Free hotline, 7-day-a-week timeline, support team, etc...<br />"
+"COM_LIVEOPTIM_FNT_PRE_PRIX_MKT900","&euro;900 INC. TAXES"
+"COM_LIVEOPTIM_FNT_PRE_TXT_SO","All your SEO analyses on 1 platform!<br />
+								Site audit, ranking on demand, analytic monitoring of positions, etc...<br />"
+"COM_LIVEOPTIM_FNT_PRE_PRIX_SO","&euro;9.90 INC. TAXES / MONTH"
+"COM_LIVEOPTIM_FNT_PRE_COMING_SOON","EM BREVE"
+
+"COM_LIVEOPTIM_FNT_PRE_UN_KEY","Palavras-chaves ilimitadas"
+"COM_LIVEOPTIM_FNT_PRE_UN_TARGET","Páginas de destino ilimitadas"
+"COM_LIVEOPTIM_FNT_PRE_CACHE","Sistema de cache incluído<br /> (otimização do tempo de carregamento"
+"COM_LIVEOPTIM_FNT_PRE_CUSTOM_TAG","Personalisação dos esquemas de otimização"
+"COM_LIVEOPTIM_FNT_PRE_TARGET","Esquema specífico de otimização das páginas de destino"
+"COM_LIVEOPTIM_FNT_PRE_LOOP","Opção: esquema de marcação em laço"
+"COM_LIVEOPTIM_FNT_PRE_CAPPING","Sistema de controlo com alerta em caso de otimização excessiva"
+"COM_LIVEOPTIM_FNT_PRE_EXCLUD_PAGES","Opção: exclusão de páginas sem otimização"
+"COM_LIVEOPTIM_FNT_PRE_EXECEPTION","Preconfigure exceptions tags"
+"COM_LIVEOPTIM_FNT_PRE_SUPPORT","Apoio Premium"
+"COM_LIVEOPTIM_FNT_PRE_TWITER","Timeline do Twitter Apoio 24/7"
+"COM_LIVEOPTIM_FNT_PRE_HOTLINE","Hotline Gratuita"
+"COM_LIVEOPTIM_FNT_PRE_CHAT","LiveChat"
+"COM_LIVEOPTIM_FNT_PRE_UPGRADE","ATUALIZAÇÕES"
+
+
+
+
+// code401.php
+"code401_titre","Código 401."
+
+// code403.php
+"code403_titre","Código 403."
+
+// code404.php
+"code404_titre","Código 404."
+
+);

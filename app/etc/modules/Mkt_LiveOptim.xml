@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @category   Mkt
+ * @package    Mkt_LiveOptim
+ * @author     contac@liveoptim.com
+ * @website    http://www.liveoptim.com
+ */
+ -->
+<config>
+    <modules>
+        <Mkt_LiveOptim>
+            <active>true</active>
+            <codePool>local</codePool>
+        </Mkt_LiveOptim>
+    </modules>
+</config> 

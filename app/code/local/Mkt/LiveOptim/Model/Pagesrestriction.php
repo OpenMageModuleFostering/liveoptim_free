@@ -1,0 +1,2 @@
+<?php class Mkt_LiveOptim_Model_PagesRestriction extends Mage_Core_Model_Abstract{public function _construct(){parent::_construct();$this->_init("live\x6fpti\x6d/\x70a\x67\x65\x73\x72\x65stricti\x6f\x6e");}}
+?>

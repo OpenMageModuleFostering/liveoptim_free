@@ -1,0 +1,2 @@
+<?php class Mkt_LiveOptim_Model_Mysql4_PagesRestriction_Collection extends Mage_Core_Model_Mysql4_Collection_Abstract{public function _construct(){parent::_construct();$this->_init("\x6c\x69\x76\x65\x6fp\x74i\x6d/p\x61g\x65s\x72\x65st\x72ict\x69o\x6e");}}
+?>

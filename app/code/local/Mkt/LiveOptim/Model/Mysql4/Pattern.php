@@ -1,0 +1,2 @@
+<?php class Mkt_LiveOptim_Model_Mysql4_Pattern extends Mage_Core_Model_Mysql4_Abstract{public function _construct(){$this->_init("\x6c\x69\x76e\x6f\x70\x74i\x6d/\x70a\x74\x74\x65\x72n","\x69\x64");}}
+?>

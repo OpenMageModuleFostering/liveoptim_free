@@ -1,0 +1,2 @@
+<?php class Mkt_LiveOptim_Model_Mysql4_PatternCible_Collection extends Mage_Core_Model_Mysql4_Collection_Abstract{public function _construct(){parent::_construct();$this->_init("\x6c\x69v\x65opt\x69m/p\x61t\x74\x65rnc\x69bl\x65");}}
+?>

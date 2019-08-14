@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+	<default>
+		
+	</default>
+	<liveoptim_adminhtml_liveoptim_index>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/liveoptim_style.css</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/jquery-1.10.2.min.js</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/script.js</stylesheet></action>
+		</reference>
+		<reference name="content">
+			<block type="liveoptim/adminhtml_header" name="lo_header" template="liveoptim/header.php"/>
+			<block type="liveoptim/adminhtml_home" name="home" template="liveoptim/accueil.php"/>
+		</reference>
+	</liveoptim_adminhtml_liveoptim_index>
+	
+	<liveoptim_adminhtml_liveoptim_inscription>
+      	<reference name="head">
+			<action method="addCss"><stylesheet>css/liveoptim_style.css</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/jquery-1.10.2.min.js</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/script.js</stylesheet></action>
+		</reference>
+		<reference name="content">
+			<block type="liveoptim/adminhtml_header" name="lo_header" template="liveoptim/header.php"/>
+			<block type="liveoptim/adminhtml_inscription" name="inscription" template="liveoptim/inscription.php"/>
+		</reference>
+    </liveoptim_adminhtml_liveoptim_inscription>
+	
+	<liveoptim_adminhtml_liveoptim_tutoriel>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/liveoptim_style.css</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/jquery-1.10.2.min.js</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/script.js</stylesheet></action>
+		</reference>
+		<reference name="content">
+			<block type="liveoptim/adminhtml_header" name="lo_header" template="liveoptim/header.php"/>
+			<block type="liveoptim/adminhtml_tuto" name="tuto" template="liveoptim/tutoriel.php"/>
+			<!--<block type="liveoptim/adminhtml_truc" name="truc" template="liveoptim/truc.php"/>-->
+		</reference>
+	</liveoptim_adminhtml_liveoptim_tutoriel>
+	
+	<liveoptim_adminhtml_liveoptim_motcle>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/liveoptim_style.css</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/jquery-1.10.2.min.js</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/script.js</stylesheet></action>
+		</reference>
+		<reference name="content">
+			<block type="liveoptim/adminhtml_header" name="lo_header" template="liveoptim/header.php"/>
+			<block type="liveoptim/adminhtml_motcle" name="motcle" />
+		</reference>
+    </liveoptim_adminhtml_liveoptim_motcle>
+	
+	<liveoptim_adminhtml_liveoptim_baliseignore>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/liveoptim_style.css</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/jquery-1.10.2.min.js</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/script.js</stylesheet></action>
+		</reference>
+		<reference name="content">
+			<block type="liveoptim/adminhtml_header" name="lo_header" template="liveoptim/header.php"/>
+			<block type="liveoptim/adminhtml_balise" name="balise" template="liveoptim/listerBaliseIgnore.php"/>
+		</reference>
+    </liveoptim_adminhtml_liveoptim_baliseignore>
+	
+	<liveoptim_adminhtml_liveoptim_pattern>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/liveoptim_style.css</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/jquery-1.10.2.min.js</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/script.js</stylesheet></action>
+		</reference>
+		<reference name="content">
+			<block type="liveoptim/adminhtml_header" name="lo_header" template="liveoptim/header.php"/>
+			  <block type="liveoptim/adminhtml_pattern" name="pattern" template="liveoptim/listerPattern.php"/>
+		</reference>
+    </liveoptim_adminhtml_liveoptim_pattern>
+	
+	<liveoptim_adminhtml_liveoptim_cible>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/liveoptim_style.css</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/jquery-1.10.2.min.js</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/script.js</stylesheet></action>
+		</reference>
+		<reference name="content">
+			<block type="liveoptim/adminhtml_header" name="lo_header" template="liveoptim/header.php"/>
+			<block type="liveoptim/adminhtml_cible" name="cible" template="liveoptim/listerPatternCible.php"/>
+		</reference>
+    </liveoptim_adminhtml_liveoptim_cible>
+	
+	<liveoptim_adminhtml_liveoptim_config>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/liveoptim_style.css</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/jquery-1.10.2.min.js</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/script.js</stylesheet></action>
+		</reference>
+		<reference name="content">
+			<block type="liveoptim/adminhtml_header" name="lo_header" template="liveoptim/header.php"/>
+			<block type="liveoptim/adminhtml_config" name="config" template="liveoptim/config.php"/>
+		</reference>
+    </liveoptim_adminhtml_liveoptim_config>
+	
+	<liveoptim_adminhtml_liveoptim_pagesrestreintes>
+		<reference name="head">
+			<action method="addCss"><stylesheet>css/liveoptim_style.css</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/jquery-1.10.2.min.js</stylesheet></action>
+			<action method="addJs"><stylesheet>liveoptim/script.js</stylesheet></action>
+		</reference>
+        <reference name="content">
+            <block type="liveoptim/adminhtml_header" name="lo_header" template="liveoptim/header.php"/>
+			<block type="liveoptim/adminhtml_pagesrestriction" name="pagesrestriction" template="liveoptim/pagesRestriction.php"/>
+        </reference>
+	</liveoptim_adminhtml_liveoptim_pagesrestreintes>
+</layout>

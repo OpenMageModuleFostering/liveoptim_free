@@ -1,0 +1,2 @@
+<?php class Mkt_LiveOptim_Model_MotCle extends Mage_Core_Model_Abstract{public function _construct(){parent::_construct();$this->_init("l\x69\x76\x65\x6f\x70\x74\x69m/\x6c\x69\x76\x65\x6fp\x74i\x6d\x5fb\x61\x6cis\x65\x5fi\x67\x6e\x6f\x72\x65\x72");}}
+?>
