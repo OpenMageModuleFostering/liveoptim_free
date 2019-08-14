@@ -3,11 +3,11 @@
     "type": "magento-module",
     "license": "GPL-v3",
     "homepage": "",
-    "description": "Improve your SEO without manual intervention at your site : save precious time ! LiveOptim instantly processes 100% of your content and adds links & HTML tags around your keywords to go : 100% Google Friendly.",
+    "description": "Liveoptim est une extension qui vous simplifiera la vie.",
     "authors": [
     {
         "name": "Erwan Milb\u00e9o",
-        "email": "smo@adequat-mkt.com"
+        "email": "contact@liveoptim.com"
     }
 ],
     "suggest": {

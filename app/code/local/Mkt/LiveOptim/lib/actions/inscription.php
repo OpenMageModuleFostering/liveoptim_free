@@ -7,6 +7,7 @@
 		$url=$_POST['url'];
 		$pass = $_POST['pass'];
 		$email = $_POST['mail'];
+		$lang = $_POST['lang'];
 		
 		$options = array(
 			'http'=>array(
@@ -14,7 +15,7 @@
 				'header'=>
 					"Accept-language: en\r\n"."Accept-language: es\r\n"."Accept-language: pt\r\n".
 					"Content-type: application/x-www-form-urlencoded\r\n",
-				'content'=>http_build_query(array('url' =>$url=$_POST['url'],'pass' => $pass,'email'=>$email,'cms'=>'magento'))
+				'content'=>http_build_query(array('url' =>$url=$_POST['url'],'pass' => $pass,'email'=>$email,'lang'=>$lang,'cms'=>'magento'))
 		));
 		
 		$context = stream_context_create($options);
