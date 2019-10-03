@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/LiveOptim_free",
+    "name": "OpenMageModuleFostering\/LiveOptim_free",
     "type": "magento-module",
     "license": "GPL-v3",
     "homepage": "",
     "description": "Liveoptim est une extension qui vous simplifiera la vie.",
     "authors": [
-    {
-        "name": "Erwan Milb\u00e9o",
-        "email": "contact@liveoptim.com"
-    }
-],
+        {
+            "name": "Erwan Milb\u00e9o",
+            "email": "contact@liveoptim.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
